@@ -1,0 +1,12 @@
+
+PACKER DETECTION ALERT
+
+The anti-virus scanner has detected a packer program.  The file was not cleaned and has been removed.
+Context: 'Scrapscan1.8.zip\1.8\vfpoledb.exe'
+Detection(s): 'InstallShield (compressed file)'
+
+
+See your system administrator for further information. 
+Copyright 1999-2008 McAfee, Inc.
+All Rights Reserved.
+http://www.mcafee.com

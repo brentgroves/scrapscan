@@ -1,0 +1,287 @@
+[Root]
+Most Recent Package=Busche CNC Scrap Scan
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=x:\MIS\Scrap Scan
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\Program Files\Common Files\System\ado\msado27.tlb=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\MSCOMCT2.OCX=
+C:\WINDOWS\system32\mscomctl.ocx=
+C:\WINDOWS\system32\scrrun.dll=
+C:\WINDOWS\system32\msstdfmt.dll=
+
+[Package|Standard Setup Package 1|Files Added]
+c:\scrap scan\bcctemp.dbf=
+c:\clock off 2\bcmaster\bcmast.dbf=
+c:\scrap scan\settings.ini=
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\Scrap Scan\ScrapScan.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\MSBIND.DLL=Yes
+C:\WINDOWS\system32\msstdfmt.dll=Yes
+C:\WINDOWS\system32\scrrun.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT.DLL=Yes
+C:\WINDOWS\system32\MSADODC.OCX=Yes
+C:\WINDOWS\system32\COMCT232.OCX=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\WINDOWS\system32\MSCOMCT2.OCX=Yes
+C:\WINDOWS\system32\COMCT332.OCX=Yes
+C:\WINDOWS\system32\DBGRID32.OCX=Yes
+C:\WINDOWS\system32\DBLIST32.OCX=Yes
+C:\WINDOWS\system32\MSDATGRD.OCX=Yes
+C:\WINDOWS\system32\MSDATLST.OCX=Yes
+C:\WINDOWS\system32\MSCHRT20.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Scrap Scan\bcctemp.dbf=Yes
+C:\Clock Off 2\BCMaster\BCMast.DBF=Yes
+C:\Scrap Scan\settings.ini=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\Scrap Scan\ScrapScan.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\system32\msstdfmt.dll=$(WinSysPath)
+C:\WINDOWS\system32\scrrun.dll=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMCT232.OCX=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMCT332.OCX=$(WinSysPath)
+C:\WINDOWS\system32\DBGRID32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\DBLIST32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATLST.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCHRT20.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Program Files\Common Files\System\ado\msado27.tlb=$(WinSysPath)
+C:\Scrap Scan\bcctemp.dbf=$(AppPath)
+C:\Clock Off 2\BCMaster\BCMast.DBF=$(AppPath)\BCMaster
+C:\Scrap Scan\settings.ini=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\Scrap Scan\ScrapScan.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+C:\Scrap Scan\bcctemp.dbf=No
+C:\Clock Off 2\BCMaster\BCMast.DBF=No
+C:\Scrap Scan\settings.ini=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Scrap Scan
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Scrap Scan
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Scrap Scan]
+Icon1=ScrapScan.exe
+Title1=Scrap Scan
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=x:\MIS\Scrap Scan
+ProjectFolder=C:\Scrap Scan
+ServerSideCab=
+File1=x:\MIS\Scrap Scan\setup.exe
+File2=x:\MIS\Scrap Scan\Setup.Lst
+File3=x:\MIS\Scrap Scan\ScrapScan.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Busche CNC Scrap Scan|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\MyProjects\Scrap Scan\Package
+
+[Package|Busche CNC Scrap Scan|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Busche CNC Scrap Scan|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Busche CNC Scrap Scan|Files Found]
+bcctemp.dbf=C:\MyProjects\Scrap Scan\bcctemp.dbf
+BCMast.DBF=C:\MyProjects\Scrap Scan\BCMaster\BCMast.DBF
+settings.ini=C:\MyProjects\Scrap Scan\settings.ini
+
+[Package|Busche CNC Scrap Scan|Files Released]
+
+[Package|Busche CNC Scrap Scan|Missing Dependency Information]
+C:\Program Files\Common Files\System\ado\msado27.tlb=
+
+[Package|Busche CNC Scrap Scan|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\MSCOMCT2.OCX=
+C:\WINDOWS\system32\mscomctl.ocx=
+C:\WINDOWS\system32\scrrun.dll=
+C:\WINDOWS\system32\msstdfmt.dll=
+
+[Package|Busche CNC Scrap Scan|Files Added]
+bcctemp.dbf=
+bcmast.dbf=
+settings.ini=
+c:\myprojects\scrap scan\vfpoledb.exe=
+
+[Package|Busche CNC Scrap Scan|Files Removed]
+
+[Package|Busche CNC Scrap Scan|Files In Project]
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\MSBIND.DLL=Yes
+C:\WINDOWS\system32\msstdfmt.dll=Yes
+C:\WINDOWS\system32\scrrun.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT.DLL=Yes
+C:\WINDOWS\system32\MSADODC.OCX=Yes
+C:\WINDOWS\system32\COMCT232.OCX=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\WINDOWS\system32\MSCOMCT2.OCX=Yes
+C:\WINDOWS\system32\COMCT332.OCX=Yes
+C:\WINDOWS\system32\DBGRID32.OCX=Yes
+C:\WINDOWS\system32\DBLIST32.OCX=Yes
+C:\WINDOWS\system32\MSDATGRD.OCX=Yes
+C:\WINDOWS\system32\MSDATLST.OCX=Yes
+C:\WINDOWS\system32\MSCHRT20.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\MyProjects\Scrap Scan\ScrapScan.exe=Yes
+C:\MyProjects\Scrap Scan\bcctemp.dbf=Yes
+C:\MyProjects\Scrap Scan\BCMaster\BCMast.DBF=Yes
+C:\MyProjects\Scrap Scan\settings.ini=Yes
+C:\MyProjects\Scrap Scan\vfpoledb.exe=Yes
+
+[Package|Busche CNC Scrap Scan|Configure Registry Files]
+Applicable=No
+
+[Package|Busche CNC Scrap Scan|Configure Remote Servers]
+Applicable=No
+
+[Package|Busche CNC Scrap Scan|Install Locations]
+C:\Scrap Scan\ScrapScan.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\system32\msstdfmt.dll=$(WinSysPath)
+C:\WINDOWS\system32\scrrun.dll=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMCT232.OCX=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMCT332.OCX=$(WinSysPath)
+C:\WINDOWS\system32\DBGRID32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\DBLIST32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATLST.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCHRT20.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Program Files\Common Files\System\ado\msado27.tlb=$(WinSysPath)
+C:\Scrap Scan\bcctemp.dbf=$(AppPath)
+C:\Clock Off 2\BCMaster\BCMast.DBF=$(AppPath)\BCMaster
+C:\Scrap Scan\settings.ini=$(AppPath)
+C:\MyProjects\Scrap Scan\ScrapScan.exe=$(AppPath)
+C:\MyProjects\Scrap Scan\bcctemp.dbf=$(AppPath)
+C:\MyProjects\Scrap Scan\BCMaster\BCMast.DBF=$(AppPath)\BCMaster
+C:\MyProjects\Scrap Scan\settings.ini=$(AppPath)
+C:\MyProjects\Scrap Scan\vfpoledb.exe=$(ProgramFiles)
+
+[Package|Busche CNC Scrap Scan|Configure Shared Files]
+Applicable=Yes
+C:\Scrap Scan\ScrapScan.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+C:\Scrap Scan\bcctemp.dbf=No
+C:\Clock Off 2\BCMaster\BCMast.DBF=No
+C:\Scrap Scan\settings.ini=No
+C:\MyProjects\Scrap Scan\ScrapScan.exe=No
+C:\MyProjects\Scrap Scan\bcctemp.dbf=No
+C:\MyProjects\Scrap Scan\BCMaster\BCMast.DBF=No
+C:\MyProjects\Scrap Scan\settings.ini=No
+C:\MyProjects\Scrap Scan\vfpoledb.exe=No
+
+[Package|Busche CNC Scrap Scan|Distribution]
+Type=single
+Size=
+Title=Busche Scrap Scan
+
+[Package|Busche CNC Scrap Scan|Package]
+PackageFolder=C:\MyProjects\Scrap Scan\Package
+ProjectFolder=C:\MyProjects\Scrap Scan
+ServerSideCab=
+File1=C:\MyProjects\Scrap Scan\Package\setup.exe
+File2=C:\MyProjects\Scrap Scan\Package\Setup.Lst
+File3=C:\MyProjects\Scrap Scan\Package\ScrapScan.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Busche CNC Scrap Scan|IconGroups]
+Group0=Busche
+PrivateGroup0=0
+Parent0=$(Programs)
+
+[Package|Busche CNC Scrap Scan|Busche]
+Icon1=ScrapScan.exe
+Title1=Busche Scrap Scan
+StartIn1=$(AppPath)
+Key1=Icon2
