@@ -29,13 +29,13 @@ Begin VB.MDIForm MDIForm1
             Style           =   6
             AutoSize        =   1
             Object.Width           =   9657
-            TextSave        =   "6/17/2015"
+            TextSave        =   "4/20/2018"
          EndProperty
          BeginProperty Panel2 {8E3867AB-8586-11D1-B16A-00C0F0283628} 
             Style           =   5
             AutoSize        =   1
             Object.Width           =   9657
-            TextSave        =   "8:43 AM"
+            TextSave        =   "11:58 AM"
          EndProperty
          BeginProperty Panel3 {8E3867AB-8586-11D1-B16A-00C0F0283628} 
             AutoSize        =   1
@@ -94,6 +94,10 @@ Begin VB.MDIForm MDIForm1
          Caption         =   "PLANT 11"
          Checked         =   -1  'True
       End
+      Begin VB.Menu P12 
+         Caption         =   "PLANT 12"
+         Checked         =   -1  'True
+      End
       Begin VB.Menu P8 
          Caption         =   "DISTRIBUTION CENTER"
       End
@@ -145,15 +149,31 @@ Private Sub MDIForm_Activate()
     P8.Checked = False
     P9.Checked = False
     P11.Checked = False
+    P12.Checked = False
     P8A.Checked = False
     
     PLANT = 10
+
     
     getLocationSettings
 End Sub
 
 Private Sub MDIForm_Unload(Cancel As Integer)
     closedb
+End Sub
+
+Private Sub P12_Click()
+    P2.Checked = False
+    P3.Checked = False
+    P5.Checked = False
+    P6.Checked = False
+    P7.Checked = False
+    P8.Checked = False
+    P9.Checked = False
+    P11.Checked = False
+    P12.Checked = True
+    P8A.Checked = False
+    PLANT = 43
 End Sub
 
 Private Sub P2_Click()
@@ -165,6 +185,7 @@ Private Sub P2_Click()
     P8.Checked = False
     P9.Checked = False
     P11.Checked = False
+    P12.Checked = False
     P8A.Checked = False
 
     PLANT = 20
@@ -179,6 +200,7 @@ Private Sub P3_Click()
     P8.Checked = False
     P9.Checked = False
     P11.Checked = False
+    P12.Checked = False
     P8A.Checked = False
         PLANT = 10
 End Sub
@@ -191,6 +213,7 @@ Private Sub P5_Click()
     P8.Checked = False
     P9.Checked = False
     P11.Checked = False
+    P12.Checked = False
     P8A.Checked = False
         PLANT = 50
 End Sub
@@ -203,6 +226,7 @@ Private Sub P6_Click()
     P8.Checked = False
     P9.Checked = False
     P11.Checked = False
+    P12.Checked = False
     P8A.Checked = False
     PLANT = 60
 End Sub
@@ -215,6 +239,7 @@ Private Sub P7_Click()
     P8.Checked = False
     P9.Checked = False
     P11.Checked = False
+    P12.Checked = False
     P8A.Checked = False
     PLANT = 77
 End Sub
@@ -227,6 +252,7 @@ Private Sub P8_Click()
     P8.Checked = True
     P9.Checked = False
     P11.Checked = False
+    P12.Checked = False
     P8A.Checked = False
     PLANT = 85
 End Sub
@@ -239,6 +265,7 @@ Private Sub P8A_Click()
     P8.Checked = False
     P9.Checked = False
     P11.Checked = False
+    P12.Checked = False
     P8A.Checked = True
     PLANT = 88
 End Sub
@@ -251,6 +278,7 @@ Private Sub P9_Click()
     P8.Checked = False
     P9.Checked = True
     P11.Checked = False
+    P12.Checked = False
     P8A.Checked = False
     PLANT = 99
 End Sub
@@ -263,6 +291,7 @@ Private Sub P11_Click()
     P8.Checked = False
     P9.Checked = False
     P11.Checked = True
+    P12.Checked = False
     P8A.Checked = False
     PLANT = 30
 End Sub

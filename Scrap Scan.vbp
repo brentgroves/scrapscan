@@ -1,9 +1,9 @@
 Type=Exe
-Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\..\..\..\Windows\SysWOW64\stdole2.tlb#OLE Automation
-Reference=*\G{56BF9020-7A2F-11D0-9482-00A0C91110ED}#1.0#0#..\..\..\..\..\Windows\SysWow64\MSBIND.DLL#Microsoft Data Binding Collection
-Reference=*\G{420B2830-E718-11CF-893D-00A0C9054228}#1.0#0#..\..\..\..\..\Windows\SysWOW64\scrrun.dll#Microsoft Scripting Runtime
-Reference=*\G{2A75196C-D9EB-4129-B803-931327F72D5C}#2.8#0#..\..\..\..\..\Program Files (x86)\Common Files\System\ado\msado28.tlb#Microsoft ActiveX Data Objects 2.8 Library
-Reference=*\G{AA987BF8-E849-4996-9335-413DF4A8158A}#12.2#0#..\..\..\..\..\Program Files (x86)\Busche Tool List\ossmtp.dll#OstroSoft SMTP Component
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\Windows\SysWOW64\stdole2.tlb#OLE Automation
+Reference=*\G{56BF9020-7A2F-11D0-9482-00A0C91110ED}#1.0#0#..\..\Windows\SysWow64\MSBIND.DLL#Microsoft Data Binding Collection
+Reference=*\G{420B2830-E718-11CF-893D-00A0C9054228}#1.0#0#..\..\Windows\SysWOW64\scrrun.dll#Microsoft Scripting Runtime
+Reference=*\G{2A75196C-D9EB-4129-B803-931327F72D5C}#2.8#0#..\..\Program Files (x86)\Common Files\System\ado\msado28.tlb#Microsoft ActiveX Data Objects 2.8 Library
+Reference=*\G{AA987BF8-E849-4996-9335-413DF4A8158A}#12.2#0#..\..\Windows\SysWow64\ossmtp.dll#OstroSoft SMTP Component
 Object={67397AA1-7FB1-11D0-B148-00A0C922E820}#6.0#0; MSADODC.OCX
 Object={FE0065C0-1B7B-11CF-9D53-00AA003C9CB6}#1.1#0; comct232.ocx
 Object={831FDD16-0C5C-11D2-A9FC-0000F8754DA1}#2.1#0; MSCOMCTL.OCX
