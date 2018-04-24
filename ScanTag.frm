@@ -120,6 +120,7 @@ Private Sub Form_Load()
 End Sub
 
 
+
 Private Sub Timer1_Timer()
     If MDIForm1.ActiveForm.Name = ScanSCRAPTAG.Name Then
         Text1.SetFocus

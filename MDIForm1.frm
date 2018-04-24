@@ -29,13 +29,13 @@ Begin VB.MDIForm MDIForm1
             Style           =   6
             AutoSize        =   1
             Object.Width           =   9657
-            TextSave        =   "4/20/2018"
+            TextSave        =   "4/24/2018"
          EndProperty
          BeginProperty Panel2 {8E3867AB-8586-11D1-B16A-00C0F0283628} 
             Style           =   5
             AutoSize        =   1
             Object.Width           =   9657
-            TextSave        =   "11:58 AM"
+            TextSave        =   "7:10 AM"
          EndProperty
          BeginProperty Panel3 {8E3867AB-8586-11D1-B16A-00C0F0283628} 
             AutoSize        =   1
@@ -173,7 +173,7 @@ Private Sub P12_Click()
     P11.Checked = False
     P12.Checked = True
     P8A.Checked = False
-    PLANT = 43
+    PLANT = 41
 End Sub
 
 Private Sub P2_Click()

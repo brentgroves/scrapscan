@@ -616,6 +616,7 @@ Function GetScrapBinLocationIdentityColumn(strScrapCode As String) As String
            If (MDIForm1.P8.Checked) Then strScrapBinLocation = "999-2"
            If (MDIForm1.P9.Checked) Then strScrapBinLocation = "990-2"
            If (MDIForm1.P11.Checked) Then strScrapBinLocation = "110-2"
+           If (MDIForm1.P12.Checked) Then strScrapBinLocation = "110-2"
            If (MDIForm1.P8A.Checked) Then strScrapBinLocation = "888-2"
         
         Case "3"
@@ -627,6 +628,7 @@ Function GetScrapBinLocationIdentityColumn(strScrapCode As String) As String
            If (MDIForm1.P8.Checked) Then strScrapBinLocation = "999-3"
            If (MDIForm1.P9.Checked) Then strScrapBinLocation = "990-3"
            If (MDIForm1.P11.Checked) Then strScrapBinLocation = "110-3"
+           If (MDIForm1.P12.Checked) Then strScrapBinLocation = "110-3"
            If (MDIForm1.P8A.Checked) Then strScrapBinLocation = "888-3"
         
         Case Else
@@ -639,6 +641,7 @@ Function GetScrapBinLocationIdentityColumn(strScrapCode As String) As String
            If (MDIForm1.P8.Checked) Then strScrapBinLocation = "999"
            If (MDIForm1.P9.Checked) Then strScrapBinLocation = "990"
            If (MDIForm1.P11.Checked) Then strScrapBinLocation = "110-1"
+           If (MDIForm1.P12.Checked) Then strScrapBinLocation = "110-1"
            If (MDIForm1.P8A.Checked) Then strScrapBinLocation = "888"
        End Select
     

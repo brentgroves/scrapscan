@@ -280,6 +280,7 @@ End If
     MDIForm1.P8.Enabled = True
     MDIForm1.P9.Enabled = True
     MDIForm1.P11.Enabled = True
+    MDIForm1.P12.Enabled = True
     MDIForm1.P8A.Enabled = True
     cboToLocation.Visible = False
     cboFromLocation.Visible = False
@@ -410,6 +411,7 @@ Private Sub START_PICT_Click()
     MDIForm1.P8.Enabled = False
     MDIForm1.P9.Enabled = False
     MDIForm1.P11.Enabled = False
+    MDIForm1.P12.Enabled = False
     MDIForm1.P8A.Enabled = False
     MDIForm1.StatusBar1.Panels(3).Text = ""
 '    cboLocation.Visible = True
